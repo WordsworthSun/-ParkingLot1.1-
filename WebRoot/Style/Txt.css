@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.wrap {
+    /* 最外层的div容器 */
+    min-width: 200px;
+    min-height: 200px;
+    text-align: center;
+    position: relative; /* 父元素相对定位 */
+    overflow: hidden;
+    border: 1px solid #F3F3F3; /* 边框 */
+    background-color: #3EA1FF36; /* 背景颜色 */
+}
+ 
+.ribbon {
+  /* 左上角飘带 */
+  background-color: #1890FF; /* 左上角飘带的背景颜色 */
+  overflow: hidden;
+  white-space: nowrap; /* 文字不换行*/
+  position: absolute; /* 绝对定位 */
+  left: -40px;
+  top: 10px;
+  transform: rotate(-45deg);   /* 旋转45°*/
+  box-shadow: 0 0 10px #888; /* 飘带的阴影*/
+}
+ 
+.ribbon span {
+  border: 1px solid #1890FF;
+  color: #fff;
+  display: block;
+  font: bold 100% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 1px 0;
+  padding: 5px 50px;
+  text-align: center;
+  text-shadow: 0 0 5px #444;
+}

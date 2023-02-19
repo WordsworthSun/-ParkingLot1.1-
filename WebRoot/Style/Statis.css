@@ -1,0 +1,36 @@
+@charset "UTF-8";
+#left{
+	width:600px;
+	height:400px;
+	position:absolute; 
+	}
+#right{
+	width:380px;
+	height:305px;
+	margin-left:785px;
+	margin-top:-20px;	
+	display:inline-block;
+	position:absolute; 
+	}
+#main{
+	
+    width: 420px;
+	height:220px;
+	
+	
+}
+#main02{
+	
+	width: 400px;
+	height:200px;
+	margin-top:50px;
+	position:absolute; 
+}
+#main03{
+	
+	width: 400px;
+	height:200px;
+	margin-top:60px;
+	margin-left:400px;
+	position:absolute; 
+}
